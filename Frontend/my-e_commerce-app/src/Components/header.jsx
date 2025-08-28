@@ -6,7 +6,7 @@ import Navigation from "./navigation";
 export default function Header() {
   return (
     <>
-      <div className="bg-blue-700 flex items-center py-4 justify-center space-x-7">
+      <div className="flex items-center bg-blue-700 px-5 py-4 space-x-7 lg:ml-[-20px]">
         <Logo />
         <SearchBar />
         <RightsideHeader />

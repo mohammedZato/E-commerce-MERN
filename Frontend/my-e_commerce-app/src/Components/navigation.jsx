@@ -40,32 +40,32 @@ export default function Navigation() {
               <ion-icon name="chevron-down-outline"></ion-icon>
             </span>
           </div>
-          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer">
+          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer min-w-fit">
             Get it Fast
           </div>
-          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer">
+          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer min-w-fit">
             New Arrivals
           </div>
-          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer">
+          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer min-w-fit max-[900px]:hidden">
             Back to School
           </div>
-          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer">
+          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer min-w-fit max-[1070px]:hidden">
             Rollbacks and More
           </div>
-          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer">
+          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer min-w-fit max-[1310px]:hidden">
             Dinner Made Easy
           </div>
-          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer">
+          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer min-w-fit max-[1170px]:hidden">
             Tailgaiting
           </div>
-          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer">
+          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer min-w-fit">
             College Shop
           </div>
-          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer">
+          <div className="flex items-center bg-gray-100 text-[13px] text-blue-950 px-3 py- border rounded-full cursor-pointer min-w-fit">
             Walmart +
           </div>
         </div>
-        <div>
+        <div className="min-w-fit">
           <div className="flex items-center space-x-2 relative">
             <h4
               onClick={() => setIsMoreOpen((prevState) => !prevState)}
